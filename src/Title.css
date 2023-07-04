@@ -1,0 +1,11 @@
+/*  src/Title.css  */
+.Title {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  padding: 0em;
+  margin-bottom: 0em;
+  background-color: rgb(121, 188, 232);
+}
