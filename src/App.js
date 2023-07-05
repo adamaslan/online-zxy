@@ -25,43 +25,45 @@ function App() {
         >
           <div
             style={{
-              backgroundColor: "cornflowerblue",
+              backgroundColor: "chartreuse",
               // height: "1000px",
-              border: "3% solid black",
+              border: "3% solid green",
               // 1st pane styling here
             }}
           >
-            <h2>Shalma Wegsman Our Featured Artist</h2>
-            <h2>She is: </h2>
+            <h2>Nazlie Efe Our Featured Artist</h2>
+            <h2>She makes: </h2>
             <h2>
-              -a physicist
+              -installations
               <br />
-              -a game engineer
+              -art works with bees wax
               <br />
-              -a 3d engineer
+              -works about her father
               <br />
-              -a XR engineer
+              -works relating to her turkish heritage
+                <br />
+                -influenced by their time at Pratt
             </h2>
           </div>
           <div
             style={{
-              backgroundColor: "pink",
+              backgroundColor: "olive",
 
               font: "utopia_seriff",
 
-              border: "3% solid black",
+              border: "6% solid azue",
             }}
           >
             <h2>
-              Check out her Podcast with Dan Hooper
+              Check out her website
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://podcasts.apple.com/us/podcast/why-this-universe/id1523312400"
               >
-                <p> Why This Universe </p>
+                <p> Naz </p>
               </a>
-              It makes the deepest concepts in physics digestible.
+
             </h2>
           </div>
           <div
@@ -73,7 +75,7 @@ function App() {
               border: "3% solid black",
             }}
           >
-            Check it Out!
+            Check out more on her insta @
           </div>
         </SplitPane>
       </div>
