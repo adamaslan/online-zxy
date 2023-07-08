@@ -8,7 +8,7 @@ import Title from "./Title";
 import "./Title.css";
 import Footer from "./components/Footer";
 import "./components/Footer.css";
-
+import photo from "./assets/naz1.jpeg"
 function App() {
   return (
     <div className="container">
@@ -75,13 +75,16 @@ function App() {
               border: "3% solid black",
             }}
           >
-            Check out more on her instagram @nazliefee
+              <h2>
+            Check out more on her instagram @nazliefee </h2>
           </div>
         </SplitPane>
       </div>
       <div className="other-guy">
-        <p> Stay tuned for the next exhibit in ZXY's online gallery</p>
+        <h2> Stay tuned for the next exhibit in ZXY's online gallery</h2>
       </div>
+        <img className="photo"
+             src={photo} alt="installation" />
       <div className="footer">
         <Footer />
       </div>
