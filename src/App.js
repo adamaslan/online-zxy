@@ -47,7 +47,7 @@ function App() {
           </div>
           <div
             style={{
-              backgroundColor: "olive",
+              backgroundColor: "orangered",
 
               font: "utopia_seriff",
 
@@ -55,15 +55,15 @@ function App() {
             }}
           >
             <h2>
-              Check out her website
+              Contact ZXY Gallery or check out her website for more information
+
+
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://podcasts.apple.com/us/podcast/why-this-universe/id1523312400"
-              >
-                <p> Naz </p>
+                href="https://www.nazliefe.art/"
+              > <u> Here </u>
               </a>
-
             </h2>
           </div>
           <div
@@ -75,12 +75,12 @@ function App() {
               border: "3% solid black",
             }}
           >
-            Check out more on her insta @
+            Check out more on her instagram @nazliefee
           </div>
         </SplitPane>
       </div>
       <div className="other-guy">
-        <p> Stay tuned for the next exhibit in this Online </p>
+        <p> Stay tuned for the next exhibit in ZXY's online gallery</p>
       </div>
       <div className="footer">
         <Footer />
