@@ -3,30 +3,68 @@
   src: local("utopia_seriff"), url("./fonts/utopia_seriff.ttf");
 }
 
-.container {
-  height: 80%;
-  width: 100%;
-  margin: 5em 10em;
-  /*display: grid;*/
-  /*grid-template-rows: 1fr 3fr 1fr auto;*/
-  /*grid-template-columns: 1fr 1fr 1fr;*/
+
+@media only screen and (max-width: 800px) {
+  .photo {
+    width: 75vw;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+    margin: 1rem auto;
+  }
+}
+@media only screen and (min-width: 801px) {
+  .photo {
+    width: 50vw;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    height: 80%;
+    width: 100%;
+    margin: 5em 10em;
+    font-size: 2em;
+    /*display: grid;*/
+    /*grid-template-rows: 1fr 3fr 1fr auto;*/
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+  }
+}
+
+@media only screen and (min-width: 801px) {
+  .container {
+    height: 80%;
+    width: 100%;
+    margin: 5em 10em;
+
+    /*display: grid;*/
+    /*grid-template-rows: 1fr 3fr 1fr auto;*/
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+  }
 }
 .content {
   /*grid-row: 2/3;*/
   /*grid-column: 1/3;*/
   height: 60%;
   width: 100%;
+  font-size: 10rem;
 }
 .title {
   height: 20%;
   width: 100%;
+  font-size: 10px;
   /*grid-row: 1;*/
   /*grid-column: 1/3;*/
 }
 .other-guy {
   height: 20%;
   width: 100%;
-  margin: 5em 10em;
+  margin: 5em 1em;
+
   /*grid-row: 4;*/
   /*grid-column: 1/3;*/
 background-color: rgb(10, 249, 249);
