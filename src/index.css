@@ -1,4 +1,5 @@
 .Resizer {
+  display: block;
   background: #000;
   opacity: 0.2;
   z-index: auto;
@@ -16,10 +17,11 @@
 }
 
 .Resizer.horizontal {
+  display: block;
   height: 110px;
-  margin: -500px 100;
-  border-top: 5px solid rgba(255, 255, 255, 0);
-  border-bottom: 5px solid rgba(255, 255, 255, 0);
+  margin: -500px 100px;
+  border-top: 1rem solid rgba(255, 255, 255, 0);
+  border-bottom: 1rem solid rgba(255, 255, 255, 0);
   cursor: row-resize;
   width: 100%;
 }
@@ -30,8 +32,9 @@
 }
 
 .Resizer.vertical {
-  width: 10rem;
-  margin: 100 -1rem;
+  display: block;
+  width: 12rem;
+  margin: 100rem -1rem;
   border-left: 5px solid rgba(255, 255, 255, 0);
   border-right: 5px solid rgba(255, 255, 255, 0);
   cursor: col-resize;
