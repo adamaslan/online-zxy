@@ -36,11 +36,11 @@ function App() {
             <h2>
               -installations
               <br />
-              -art works with bees wax
+              -art works with beeswax and water
               <br />
-              -works about her father
-              <br />
-              -works relating to her turkish heritage
+              -works about unconscious and memories
+                <br />
+              -works relating to her Turkish and Cypriot heritage
                 <br />
                 -influenced by their time at Pratt
             </h2>
