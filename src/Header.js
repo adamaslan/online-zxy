@@ -5,7 +5,8 @@ class Header extends React.Component {
   render() {
     return (
       <div className={this.zxyHeader}>
-        <h1>Hello and welcome to ZXY Gallery</h1>
+        <h1>
+        Roman Kalinovski: Imagined Narratives</h1>
       </div>
     );
   }

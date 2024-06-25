@@ -3,7 +3,7 @@ import React from "react";
 function Title() {
   return (
     <div className="Title">
-      <h1>Welcome to the ZXY Gallery Online Showspace</h1>
+      <h1>Roman Kalinovski - "Re-imagined Narratives"</h1>
     </div>
   );
 }

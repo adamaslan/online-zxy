@@ -38,7 +38,7 @@
 @media only screen and (min-width: 801px) {
   .container {
     height: 80%;
-    width: 100%;
+    width: 95%;
     margin: 5em 5em;
 
     /*display: grid;*/
@@ -60,14 +60,24 @@
   /*grid-row: 1;*/
   /*grid-column: 1/3;*/
 }
+
 .other-guy {
-  height: 20%;
-  width: 100%;
+  height: 200px;
+  width: 95%;
+  margin: 14em 1em 1em 1em;
+
+  /*grid-row: 4;*/
+  /*grid-column: 1/3;*/
+background-color: #00EAFF;
+}
+.other-guy2 {
+  height: 200px;
+  width: 95%;
   margin: 34em 1em 1em 1em;
 
   /*grid-row: 4;*/
   /*grid-column: 1/3;*/
-background-color: rgb(10, 249, 249);
+background-color: #FF00B7;
 }
 .footer {
   grid-row: 5/-1;
