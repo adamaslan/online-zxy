@@ -56,7 +56,8 @@ function App() {
 
               font: "utopia_seriff",
 
-              border: "6% solid azue",
+              border: "6% solid",
+              'margin-right': "3rem",
             }}
           >
             <h2>
