@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import "./components/Footer.css";
 import photo from "./assets/roman1.jpeg";
 import photo2 from "./assets/roman2.jpeg"
+
 function App() {
   return (
     <div className="container">
@@ -18,12 +19,18 @@ function App() {
       </div>
       <img className="photo"
              src={photo2} alt="painting" />
+
       <div className="content">
-        <SplitPane
-          split="vertical"
+          <SplitPane
+   
+   
+      // Other  props for SplitPane
+      defaultSize={window.innerWidth / 2} 
+
           minSize={10}
           maxSize={-500}
-          defaultSize={parseInt(localStorage.getItem("splitPos"), 5)}
+           split="vertical"
+          // defaultSize={parseInt(localStorage.getItem("splitPos"), 5)}
           onChange={(size) => localStorage.setItem("splitPos", size)}
         >
           <div
