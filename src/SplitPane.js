@@ -6,6 +6,7 @@ import { polyfill } from "react-lifecycles-compat";
 import Pane from "./Pane";
 import Resizer, { RESIZER_DEFAULT_CLASSNAME } from "./Resizer";
 
+
 function unFocus(document, window) {
   if (document.selection) {
     document.selection.empty();
@@ -23,6 +24,7 @@ function getDefaultSize(defaultSize, minSize, maxSize, draggedSize) {
       typeof maxSize === "number" && maxSize >= 0 ? maxSize : Infinity;
     return Math.max(min, Math.min(max, draggedSize));
   }
+  
   if (defaultSize !== undefined) {
     return defaultSize;
   }
