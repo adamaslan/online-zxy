@@ -82,13 +82,13 @@ function App() {
          
           </div>
           <div
-            style={{
-              backgroundColor: "red",
+            // style={{
+            //   backgroundColor: "red",
 
-              font: "utopia_seriff",
+            //   font: "utopia_seriff",
 
-              border: "3% solid black",
-            }}
+            //   border: "3% solid black",
+            // }}
           >
               <h2>
              </h2>
