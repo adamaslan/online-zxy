@@ -1,7 +1,7 @@
 /*  src/Title.css  */
 .Title {
   box-sizing: border-box;
-  width: 100%;
+  width: 99%;
   height: 50%;
   display: grid;
   justify-content: center;
@@ -11,4 +11,4 @@
 
 }
 
-.h1 {font-size: 12rem}
+.h1 {font-size: 18rem}
